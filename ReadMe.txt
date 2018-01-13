@@ -17,14 +17,8 @@ Some notes...
 - The div element can then be accessed by  inserting the above mentioned constant within style.transform
 	- Here is an example for the hours hand:
 	    function setDate3 () {
-	 
-      const now = new Date();
-      
-	       const hours = now.getHours();
-      
-	       const hoursDegrees = ((hours / 12) * 360) + 90;
-      
-	       hoursHand.style.transform = `rotate(${hoursDegrees}deg)`; 
-      
-	    
+	 	const now = new Date();
+	       	const hours = now.getHours();
+	       	const hoursDegrees = ((hours / 12) * 360) + 90;
+	       	hoursHand.style.transform = `rotate(${hoursDegrees}deg)`; 
 	    }
