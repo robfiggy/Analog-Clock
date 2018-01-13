@@ -22,3 +22,4 @@ Some notes...
 	       	const hoursDegrees = ((hours / 12) * 360) + 90;
 	       	hoursHand.style.transform = `rotate(${hoursDegrees}deg)`; 
 	    }
+- This clock was a part of the JavaScript 30 lessons by Wes Bos, which provided the CSS.
