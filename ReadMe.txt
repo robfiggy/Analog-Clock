@@ -1,3 +1,5 @@
+JavaScript / HTML / CSS
+
 Process
 
 - Played around in the console on my web browser and used the transform features to move the various hand elements at certain degrees.
